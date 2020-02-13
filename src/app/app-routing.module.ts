@@ -5,10 +5,7 @@ const routes: Routes = [
 	{ path: '', redirectTo: 'home', pathMatch: 'full' },
 	{ path: 'home', loadChildren: () => import('./home/home.module').then( m => m.HomePageModule) },
 	{ path: 'doacao', loadChildren: () => import('./doacao/doacao.module').then( m => m.DoacaoPageModule) },
-  {
-    path: 'amigo-da-luz',
-    loadChildren: () => import('./amigo-da-luz/amigo-da-luz.module').then( m => m.AmigoDaLuzPageModule)
-  },
+  	{ path: 'amigo-da-luz', loadChildren: () => import('./amigo-da-luz/amigo-da-luz.module').then( m => m.AmigoDaLuzPageModule) },
 ];
 
 @NgModule({
