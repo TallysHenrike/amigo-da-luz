@@ -1,0 +1,7 @@
+{
+  "name": "amigo-da-luz",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
