@@ -1,0 +1,1 @@
+amigo da luz
