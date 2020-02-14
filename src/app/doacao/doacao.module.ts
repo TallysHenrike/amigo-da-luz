@@ -10,11 +10,11 @@ import { DoacaoPage } from './doacao.page';
 
 @NgModule({
   imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    DoacaoPageRoutingModule
-  ],
-  declarations: [DoacaoPage]
+		CommonModule,
+		FormsModule,
+		IonicModule,
+		DoacaoPageRoutingModule
+	],
+	declarations: [DoacaoPage]
 })
 export class DoacaoPageModule {}

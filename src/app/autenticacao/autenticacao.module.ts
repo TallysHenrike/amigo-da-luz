@@ -9,12 +9,12 @@ import { AutenticacaoPageRoutingModule } from './autenticacao-routing.module';
 import { AutenticacaoPage } from './autenticacao.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    AutenticacaoPageRoutingModule
-  ],
-  declarations: [AutenticacaoPage]
+	imports: [
+		CommonModule,
+		FormsModule,
+		IonicModule,
+		AutenticacaoPageRoutingModule
+	],
+	declarations: [AutenticacaoPage]
 })
 export class AutenticacaoPageModule {}

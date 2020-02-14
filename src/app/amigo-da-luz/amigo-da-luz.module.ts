@@ -9,12 +9,12 @@ import { AmigoDaLuzPageRoutingModule } from './amigo-da-luz-routing.module';
 import { AmigoDaLuzPage } from './amigo-da-luz.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    AmigoDaLuzPageRoutingModule
-  ],
-  declarations: [AmigoDaLuzPage]
+	imports: [
+		CommonModule,
+		FormsModule,
+		IonicModule,
+		AmigoDaLuzPageRoutingModule
+	],
+	declarations: [AmigoDaLuzPage]
 })
 export class AmigoDaLuzPageModule {}

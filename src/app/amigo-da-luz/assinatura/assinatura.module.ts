@@ -9,12 +9,12 @@ import { AssinaturaPageRoutingModule } from './assinatura-routing.module';
 import { AssinaturaPage } from './assinatura.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    AssinaturaPageRoutingModule
-  ],
-  declarations: [AssinaturaPage]
+	imports: [
+		CommonModule,
+		FormsModule,
+		IonicModule,
+		AssinaturaPageRoutingModule
+	],
+	declarations: [AssinaturaPage]
 })
 export class AssinaturaPageModule {}
